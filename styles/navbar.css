@@ -1,0 +1,62 @@
+
+.logo{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.navContainerRight{
+    margin-right: 1.3rem;
+}
+.navContainerleft{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.textLogo{
+    width:7.5rem;
+    height: 2.8rem;
+    transform: translateX(-20px);
+    opacity: 0;
+    margin-left: 10px;
+    
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0d1b2a;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 3.5rem;
+    position: sticky;
+    top: 0;
+    z-index:10;
+}
+
+.navContainerRight ul {
+    display:flex;
+    list-style: none;
+    gap: 2rem;
+    text-align: center;
+    color:white;
+
+}
+
+.navContainerRight ul li{
+    padding: 0.5rem 0.9rem;
+    border-radius: 1.2rem;
+    transition: all 0.2s ease-in-out;
+
+}
+
+ul li:hover{
+
+cursor: pointer;
+background-color: #e0e1dd;
+color: #000000;
+
+}

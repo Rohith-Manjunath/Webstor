@@ -1,0 +1,38 @@
+
+.techstack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(25, 39, 165);
+    padding: 1rem 0rem;
+}
+
+.techstack h2{
+    font-size: 3rem;
+}
+ 
+marquee{
+    background-color:rgb(25, 39, 165);
+    padding: 1rem;
+
+}
+
+marquee img{
+    border-radius:0.5rem;
+    margin: 0rem 1.5rem;
+    padding: 1rem;
+    width:6rem;
+    border: 1px solid rgb(255, 255, 255) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.1));
+
+
+}
+
+marquee img:hover{
+    cursor: pointer;
+}
+
+

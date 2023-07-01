@@ -1,0 +1,138 @@
+
+section{
+    margin-top: 3rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.section-top h2{
+    font-size: 3rem;
+}
+
+.section-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.section-bottom-top,.section-bottom-bottom{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 70%;
+
+
+}
+
+.section-bottom-bottom{
+    width: 80%;
+
+}
+
+.section-bottom-top{
+    margin-right: 5rem;
+}
+
+.section-bottom-bottom{
+    margin-left: 15.5rem;
+}
+
+.section-bottom-top img,.section-bottom-bottom img{
+    width: 5rem;
+    margin-left: 0.5rem;
+}
+
+
+.section-bottom-mid{
+    border: 1px solid rgb(218, 211, 211);
+    height: 0.2rem;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.section-bottom-mid span{
+    border: 1px solid black;
+    padding:0.5rem;
+    width: 1.2rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.section-bottom-mid span:hover{
+    cursor: pointer;
+}
+
+.section-bottom-description{
+    width: 70%;
+    height: 10rem;
+}
+
+.image-text{
+text-align: center;}
+
+.image-text:nth-child(2){
+    margin-left: 3.5rem;
+}
+
+.image-text:nth-child(3){
+    margin-right: 2.1rem;
+}
+
+.image-text-even{
+    text-align: center;
+}
+.image-text-even:nth-child(2){
+margin-left: -3rem;}
+.image-text-even:nth-child(1){
+margin-left: 2.5rem;}
+.image-text-even:nth-child(3){
+margin-right: 9rem;}
+
+
+
+
+
+.section-bottom-description{
+
+position: relative;
+
+}
+
+.div1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+opacity: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 1rem;
+}
+
+
+
+.fontsize{
+font-size: 1.4rem;
+font-weight: 600;
+}
