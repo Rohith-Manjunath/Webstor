@@ -75,7 +75,13 @@
     justify-content: center;
     flex-direction: column;
     padding:3rem;
+    gap:5rem
 }
+
+.container h2{
+    font-size: 3rem;
+}
+
 .checkbox {
     position: relative;
     margin-top: 2rem;
