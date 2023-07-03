@@ -148,18 +148,18 @@ form{
 }
 
 
-input{
+ input{
     width: 19rem;
     border: none;
     font-size: 1rem;
 }
 
-input:focus{
+ input:focus{
     border: none;
     outline: none;
 }
 
-button{
+ button{
     border: none;
     background-color: #0d1b2a;
     color: white;
@@ -169,11 +169,11 @@ button{
     font-size: 1rem;
     box-shadow: 1px 1px 1px black;
 }
-button:hover{
+ button:hover{
     cursor: pointer;
 }
 
-button:active{
+ button:active{
     box-shadow: none;
     transform: translate(1px ,1px);
 }
