@@ -1,12 +1,13 @@
 
 section{
     margin-top: 3rem;
-    height: 40rem;
+    height: 50rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 4rem;
+    gap: 5rem;
+    padding-bottom: 4rem;
 }
 
 .section-top h2{
@@ -18,7 +19,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .section-bottom{
@@ -75,6 +76,7 @@ width: 70%;
     text-align: center;
     border-radius: 50%;
     background-color: white;
+    position:relative;
 }
 
 .section-bottom-mid span:hover{
@@ -127,7 +129,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-gap: 1rem;
+gap: 2rem;
+margin-top: 5rem;
 }
 
 
@@ -135,4 +138,13 @@ gap: 1rem;
 .fontsize{
 font-size: 1.4rem;
 font-weight: 600;
+}
+
+.section-bottom-mid span p{
+    width:0rem;
+    height: 0.3rem;
+    background:linear-gradient(to right,cyan,blue);
+    position: absolute;
+top: 1rem;
+left:2.2rem;
 }
