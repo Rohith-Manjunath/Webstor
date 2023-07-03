@@ -1,0 +1,11 @@
+#newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.3rem;
+    background-color: #2a3030;
+    color: white;
+    height: 20rem;
+}
+
