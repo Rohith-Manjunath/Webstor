@@ -56,10 +56,10 @@
                 <span>Product4</span>
               </div>
             </div>
-            <form action="/">
+            <div id="form">
               <input type="email" required placeholder="Enter email id" />
               <button>Get Quota</button>
-            </form>
+            </div>
           </div>
         </div>
         <div class="imageDiv">
@@ -225,13 +225,25 @@
           </p>
           <div class="social-media-icons">
             <a href="http://www.google.com">
-              <img src="../images/mapsection-icons/twitter-sign_1.png" alt="" />
+              <img
+                src="../images/mapsection-icons/twitter-sign_1.png"
+                class="twitter"
+                alt=""
+              />
             </a>
             <a href="http://www.google.com">
-              <img src="../images/mapsection-icons/linkedin-logo.png" alt="" />
+              <img
+                src="../images/mapsection-icons/linkedin-logo.png"
+                class="linkedin"
+                alt=""
+              />
             </a>
             <a href="http://www.google.com">
-              <img src="../images/mapsection-icons/instagram.png" alt="" />
+              <img
+                src="../images/mapsection-icons/instagram.png"
+                class="instagram"
+                alt=""
+              />
             </a>
           </div>
           <div class="contact-details">
@@ -246,7 +258,7 @@
           </div>
         </div>
         <div class="divRight">
-          <form id="client-details">
+          <div id="client-details">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="fname" required />
             <label for="lname">Last Name</label>
@@ -264,13 +276,56 @@
               placeholder="Enter Your Query"
             ></textarea>
             <button>Send</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>
 
+    <footer>
+      <div class="footer1">
+        <h2>About</h2>
+        <p>Company</p>
+        <p>Community</p>
+        <p>Careers</p>
+      </div>
+      <div class="footer2">
+        <h2>Products</h2>
+        <p>Resume Builder</p>
+        <p>Portfolio maker</p>
+      </div>
+      <div class="footer3">
+        <h2>Help</h2>
+        <p>FAQ</p>
+        <p>Referral program</p>
+      </div>
+      <div id="footer4">
+        <h2 style="margin-right: 1.8rem">WebstorLabs</h2>
+
+        <div>
+          <h3 style="margin-right: 8.5rem">Subscribe</h3>
+
+          <form action="">
+            <input type="email" required placeholder="Email" />
+            <button>Send</button>
+          </form>
+          <div class="images">
+            <img src="../images/mapsection-icons/instagram1.png" alt="" />
+            <img src="../images/mapsection-icons/twitter1.png" alt="" />
+            <img src="../images/mapsection-icons/linkedin.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="footer5">
+        <img src="../images/navbar images/webstorLogoText.png" alt="" />
+        <p class="copyright">
+          <span>©</span>2023 WebstorLabs , INC All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
     <script src="../javascript/navbar.js"></script>
     <script src="../javascript/services.js"></script>
     <script src="../javascript/service.js"></script>
+    <script src="../javascript/map.js"></script>
   </body>
 </html>

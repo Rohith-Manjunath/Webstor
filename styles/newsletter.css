@@ -9,3 +9,42 @@
     height: 20rem;
 }
 
+#newsletter form{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2.4rem;
+    width: 24rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#newsletter input{
+    width: 19rem;
+    border: none;
+    font-size: 1rem;
+}
+
+#newsletter input:focus{
+    border: none;
+    outline: none;
+}
+
+#newsletter button{
+    border: none;
+    background-color: #0d1b2a;
+    color: white;
+    padding: 0.6rem;
+    width: 7rem;
+    border-radius: 1.3rem;
+    font-size: 1rem;
+    box-shadow: 1px 1px 1px black;
+}
+#newsletter button:hover{
+    cursor: pointer;
+}
+
+#newsletter button:active{
+    box-shadow: none;
+    transform: translate(1px ,1px);
+}

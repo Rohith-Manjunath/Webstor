@@ -138,7 +138,7 @@ h2{
 
 }
 
-form{
+#form {
     background-color: white;
     padding: 0.5rem 1rem;
     border-radius: 2.4rem;
@@ -148,18 +148,18 @@ form{
 }
 
 
- input{
+ #form input{
     width: 19rem;
     border: none;
     font-size: 1rem;
 }
 
- input:focus{
+ #form input:focus{
     border: none;
     outline: none;
 }
 
- button{
+ #form button{
     border: none;
     background-color: #0d1b2a;
     color: white;
@@ -169,11 +169,11 @@ form{
     font-size: 1rem;
     box-shadow: 1px 1px 1px black;
 }
- button:hover{
+ #form button:hover{
     cursor: pointer;
 }
 
- button:active{
+ #form button:active{
     box-shadow: none;
     transform: translate(1px ,1px);
 }

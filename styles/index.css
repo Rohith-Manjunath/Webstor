@@ -1,4 +1,5 @@
 @import "./navbar.css";
+
 @import "./herosection.css";
 @import "./respponsive.css";
 @import "./marquee.css";
@@ -8,6 +9,8 @@
 @import "./service.css";
 @import "./newsletter.css";
 @import "./map.css";
+@import "./footer.css";
+
 
 
 *{
@@ -18,7 +21,8 @@
 }
 
 body{
-    height: 1000rem;
+    height: 300rem;
+    position: relative;
 }
 
 html{
