@@ -102,6 +102,15 @@ width: 70%;
 #client-details button{
     height:2rem ;
     border-radius: 2rem;
+    width: 5rem;
+    outline: none;
+    background-color: #0d1b2a;
+    border: none;
+    color: white;
+}
+
+#client-details button:hover{
+    cursor: pointer;
 }
 
  #client-message{
