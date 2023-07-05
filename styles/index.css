@@ -10,6 +10,7 @@
 @import "./newsletter.css";
 @import "./map.css";
 @import "./footer.css";
+@import "./team.css";
 
 
 
@@ -21,7 +22,7 @@
 }
 
 body{
-    height: 300rem;
+    height: 310rem;
     position: relative;
 }
 
