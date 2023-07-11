@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/resume.css" />
+  </head>
+  <body>
+    <div class="left-container">
+      <div class="container">
+        <p contenteditable="true">Personal Details</p>
+        <section class="section1">
+          <div class="image">
+            <input type="file" id="image" style="display: none" />
+            <label for="image" class="image-label">
+              <img src="../images/Team images/Rohith.jpg" alt="" />
+            </label>
+          </div>
+          <div>
+            <select name="" id="" class="dropdown">
+              <option value="">Male</option>
+              <option value="">Male</option>
+              <option value="">Male</option>
+            </select>
+          </div>
+          <div class="input-container">
+            <input type="text" id="profession" required />
+            <label for="profession">Current Profession</label>
+          </div>
+        </section>
+        <section class="section2">
+          <div class="input-container">
+            <input type="text" id="first-name" required />
+            <label for="first-name">First Name</label>
+          </div>
+          <div class="input-container">
+            <input type="text" id="middle-name" required />
+            <label for="middle-name">Middle Name</label>
+          </div>
+          <div class="input-container">
+            <input type="text" id="family-name" required />
+            <label for="family-name">Family Name</label>
+          </div>
+        </section>
+        <section class="section3">
+          <div class="input-container">
+            <input type="email" id="email" required />
+            <label for="email">Email Address</label>
+          </div>
+          <div class="input-container">
+            <input type="text" id="phone-number" required />
+            <label for="phone-number">Phone Number</label>
+          </div>
+        </section>
+        <section class="section4">
+          <div class="input-container">
+            <input type="text" id="address" required />
+            <label for="address">Address</label>
+          </div>
+        </section>
+        <section class="section5">
+          <div class="input-container">
+            <input type="text" id="postal-code" required />
+            <label for="postal-code">Postal Code</label>
+          </div>
+          <div class="input-container">
+            <input type="text" id="city" required />
+            <label for="city">City</label>
+          </div>
+          <div class="input-container">
+            <input type="text" id="country" required />
+            <label for="country">Country</label>
+          </div>
+        </section>
+        <button>Click</button>
+      </div>
+
+      <div class="container-2">hi</div>
+    </div>
+
+    <div class="right-container"></div>
+
+    <script>
+      const button1 = document.querySelector("button");
+
+      button1.addEventListener("click", () => {
+        document.querySelector(".container").style.display = "none";
+        document.querySelector(".container-2").style.display = "block";
+      });
+    </script>
+  </body>
+</html>

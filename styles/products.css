@@ -22,6 +22,11 @@ justify-content: center;
 gap: 11rem;
 }
 
+.cards a{
+    text-decoration: none;
+    color: white;
+}
+
 .card1,.card2{
 
 width: 17rem;
