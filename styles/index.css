@@ -21,8 +21,12 @@
 
 }
 
+html{
+    padding: 0 2rem;
+}
+
 body{
-    height: 310rem;
+    height: auto;
     position: relative;
 }
 
