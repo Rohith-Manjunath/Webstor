@@ -8,77 +8,84 @@
   </head>
   <body>
     <div class="left-container">
-      <div class="container">
-        <p contenteditable="true">Personal Details</p>
+      <p
+        style="
+          border-bottom: 1px solid black;
+          margin-bottom: 1rem;
+          font-size: 1.5rem;
+        "
+      >
+        Personal Details
+      </p>
+      <div class="personal-details">
         <section class="section1">
-          <div class="image">
-            <input type="file" id="image" style="display: none" />
-            <label for="image" class="image-label">
+          <div id="dp">
+            <input type="file" id="image" />
+            <label for="image">
               <img src="../images/Team images/Rohith.jpg" alt="" />
             </label>
           </div>
-          <div>
-            <select name="" id="" class="dropdown">
+          <div class="dropdown">
+            <select name="" id="">
               <option value="">Male</option>
               <option value="">Male</option>
               <option value="">Male</option>
             </select>
           </div>
           <div class="input-container">
-            <input type="text" id="profession" required />
+            <input type="text" placeholder=" " required />
             <label for="profession">Current Profession</label>
           </div>
         </section>
         <section class="section2">
           <div class="input-container">
-            <input type="text" id="first-name" required />
+            <input type="text" placeholder=" " required id="first-name" />
             <label for="first-name">First Name</label>
           </div>
           <div class="input-container">
-            <input type="text" id="middle-name" required />
+            <input type="text" placeholder=" " required id="middle-name" />
             <label for="middle-name">Middle Name</label>
           </div>
           <div class="input-container">
-            <input type="text" id="family-name" required />
+            <input type="text" placeholder=" " required id="family-name" />
             <label for="family-name">Family Name</label>
           </div>
         </section>
         <section class="section3">
           <div class="input-container">
-            <input type="email" id="email" required />
-            <label for="email">Email Address</label>
+            <input type="email" placeholder=" " required id="email" />
+            <label for="email">Email</label>
           </div>
           <div class="input-container">
-            <input type="text" id="phone-number" required />
+            <input type="text" placeholder=" " required id="phone-number" />
+
             <label for="phone-number">Phone Number</label>
           </div>
         </section>
         <section class="section4">
           <div class="input-container">
-            <input type="text" id="address" required />
+            <input type="text" placeholder=" " required id="address" />
             <label for="address">Address</label>
           </div>
         </section>
         <section class="section5">
           <div class="input-container">
-            <input type="text" id="postal-code" required />
+            <input type="text" placeholder=" " required id="postal-code" />
             <label for="postal-code">Postal Code</label>
           </div>
           <div class="input-container">
-            <input type="text" id="city" required />
+            <input type="text" placeholder=" " required id="city" />
             <label for="city">City</label>
           </div>
           <div class="input-container">
-            <input type="text" id="country" required />
+            <input type="text" placeholder=" " required id="country" />
             <label for="country">Country</label>
           </div>
         </section>
-        <button>Click</button>
       </div>
-
-      <div class="container-2">hi</div>
+      <button id="next">Next</button>
+      <div class="education"></div>
     </div>
-
     <div class="right-container"></div>
 
     <script>
