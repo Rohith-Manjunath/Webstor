@@ -11,8 +11,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Code+Pro:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/index.css" />
   </head>
-  <link rel="stylesheet" href="../styles/index.css" />
 
   <body>
     <nav>
@@ -43,7 +49,7 @@
       </div>
     </nav>
     <div class="heroSection">
-      <div class="top" id="top">
+      <div class="top" id="top" data-aos="fade-left">
         <div class="top-left">
           <div class="top-left-center-div">
             <h1>Webstor labs</h1>
@@ -214,7 +220,12 @@
         </h2>
         <p>A perfect Blend of active , passionate and technical wizards.</p>
       </span>
-      <div class="member-details">
+      <div
+        class="member-details"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="500"
+      >
         <div class="member1">
           <img src="../images/Team images/Rohith.jpg" alt="" />
           <span class="name">
@@ -268,7 +279,7 @@
       </form>
     </div>
 
-    <div class="map-section">
+    <div class="map-section" data-aos="zoom-in">
       <div class="details">
         <div class="divLeft">
           <h2>Get In <span style="color: #0d1b2a">Touch.</span></h2>
@@ -380,6 +391,10 @@
     <script src="../javascript/services.js"></script>
     <script src="../javascript/service.js"></script>
     <script src="../javascript/map.js"></script>
-    <script src="./index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
