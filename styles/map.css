@@ -3,11 +3,13 @@
     height: 60rem;
 background-image: url("../images/map.jpg");
 background-size: cover;
+background-repeat: no-repeat;
 display: flex;
 align-items: flex-start;
 justify-content: center;
 margin-top: 4rem;
 box-sizing: border-box;
+overflow: hidden;
 }
 
 .map-section .details{

@@ -27,7 +27,7 @@ gap: 11rem;
     color: white;
 }
 
-.card1,.card2{
+.tilt{
 
 width: 17rem;
 height: 20rem;
@@ -54,17 +54,13 @@ transition: all 0.4s ease;
    
 }
 
-.card1:hover .info{
+.tilt:hover .info{
     opacity: 1;
     transform: translateY(0);
 
 }
-.card2:hover .info{
-    opacity: 1;
-    transform: translateY(0);
 
-}
-.card1:hover{
+.tilt:hover{
     width: 18rem;
     height: 21rem;
     transition: all 0.4s ease;
@@ -72,16 +68,5 @@ transition: all 0.4s ease;
     box-shadow: 2px 2px 20px cyan;
     border: 5px solid cyan;
 
-    
-    
 
-
-}
-.card2:hover{
-    width: 18rem;
-    height: 21rem;
-    transition: all 0.4s ease;
-    cursor: pointer;
-    box-shadow: 2px 2px 20px cyan;
-    border: 5px solid cyan;
 }
