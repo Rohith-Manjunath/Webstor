@@ -1,7 +1,6 @@
 @import "./navbar.css";
 
 @import "./herosection.css";
-@import "./respponsive.css";
 @import "./marquee.css";
 @import "./section.css";
 @import "./style.css";
@@ -20,16 +19,21 @@
     font-family: sans-serif;
 }
 
-
+html{
+  scroll-behavior: smooth;
+width: 100%;
+overflow-x: hidden;
+}
 
 body{
-  height: auto;
     position: relative;
-    overflow-x: hidden;}
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    
+  }
 
-html{
-    scroll-behavior: smooth;
-}
+
 
 ::-webkit-scrollbar {
     width: 10px;
