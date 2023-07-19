@@ -178,7 +178,6 @@ margin-top: 0.2rem;
 .navContainerRight ul {
 
     gap: 7rem;
-   
     flex-direction: column;
     height: 100vh;
     width: 100vw;
@@ -228,6 +227,9 @@ margin-top: 0.2rem;
 
 
 /* Services */
+/* Services */
+/* Services */
+/* Services */
 
 
 .container h2{
@@ -242,6 +244,147 @@ margin-top: 0.2rem;
     gap:4rem;
 }
 
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
 
 
+
+
+footer{
+    width: 100%;
+    flex-direction: column;
+    height: 55rem;
+}
+
+.footer-top{
+    width: 100%;
+    height: 90%;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(97, 97, 97);
+    padding-bottom: 1rem;
+    gap: 1.5rem;
+}
+
+.footer-top div span{
+    font-size: 1.5rem;
+    font-weight:600;
+    letter-spacing: 0.1rem;
+    border-bottom: 1px solid rgb(231, 226, 226);
+}
+
+.footer-top div p{
+    font-size: 1.2rem;
+}
+
+.footer-top div{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+
+}
+
+.footer-top div:nth-child(4) span{
+    height: 60%;
+    width: 100%;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer-top div:nth-child(4) img{
+width: 18%;
+height: 100%;
+}
+
+
+
+
+.footer-bottom{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-form{
+    width: 80%;
+    height: 30%;
+   
+}
+
+
+
+
+/* Map Section */
+/* Map Section */
+/* Map Section */
+/* Map Section */
+
+
+
+.map-section{
+    width: 100%;
+background-image: url("");
+display: flex;
+height: 55rem;
+
+
+}
+
+.map-section .details{
+    width: 90%;
+    height:100%;
+    flex-direction: column;
+    margin: 0;
+
+
+}
+
+
+
+.divLeft{
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    gap:0.4rem;
+    margin: 0;
+}
+
+.divLeft p{
+    line-height: 1.3rem;
+    text-align:left;
+}
+
+
+
+.divRight{
+    border-left:none;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
+
+.divRight #client-details{
+
+width: 100%;
+
+
+
+}
 }
